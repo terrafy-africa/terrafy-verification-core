@@ -1,0 +1,38 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+logs/
+*.log
+
+# Database
+*.db
+*.sqlite
+
+# Secrets
+*.key
+*.pem
+credentials.json
+
+# Build
+dist/
+build/
+*.o
+
+# OS
+.DS_Store
+Thumbs.db
